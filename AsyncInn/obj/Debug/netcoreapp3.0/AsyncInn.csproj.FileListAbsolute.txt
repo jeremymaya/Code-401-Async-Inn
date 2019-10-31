@@ -12,7 +12,6 @@ C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\bin\Debug\ne
 C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\AsyncInn.csprojAssemblyReference.cache
 C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\staticwebassets\AsyncInn.StaticWebAssets.Manifest.cache
 C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\staticwebassets\AsyncInn.StaticWebAssets.xml
-C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\AsyncInn.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\AsyncInn.RazorAssemblyInfo.cache
 C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\AsyncInn.RazorAssemblyInfo.cs
 C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\AsyncInn.AssemblyInfoInputs.cache
