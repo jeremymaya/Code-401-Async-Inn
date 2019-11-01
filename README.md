@@ -31,9 +31,15 @@ Then select and open ```AsyncInn.sln```
 
 ---
 
-### Visuals
-#### PrintNeighborhoods
-![Image 1](https://github.com/jeremymaya/Code-401-Lab07-Collections/blob/master/Screenshots/AsyncInn2.JPG)
+### Entity Relationship Diagram
+![Image 1](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
+
+* Hotel table has one to many relationship with HotelRoom table
+* Room table has one to many relationship with HotelRoom table
+* Amenities table has one to many relationship with RoomAmenities table
+* HotelRoom table is a joint table with payload
+* RoomAmenities table is pure join table
+* Layout is a enum
 
 ---
 
