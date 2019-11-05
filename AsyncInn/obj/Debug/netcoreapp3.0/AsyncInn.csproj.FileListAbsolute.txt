@@ -228,3 +228,14 @@ C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\ne
 C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\Amenities\Details.cshtml.g.cs
 C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\Amenities\Edit.cshtml.g.cs
 C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\Amenities\Index.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\RoomAmenities\Create.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\RoomAmenities\Delete.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\RoomAmenities\Details.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\RoomAmenities\Edit.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\RoomAmenities\Index.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\HotelRooms\Create.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\HotelRooms\Delete.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\HotelRooms\Details.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\HotelRooms\Edit.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\HotelRooms\Index.cshtml.g.cs
