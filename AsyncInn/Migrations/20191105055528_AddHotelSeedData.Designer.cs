@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AsyncInn.Migrations
 {
     [DbContext(typeof(AsyncInnDbContext))]
-    [Migration("20191101053531_initial")]
-    partial class initial
+    [Migration("20191105055528_AddHotelSeedData")]
+    partial class AddHotelSeedData
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -60,6 +60,62 @@ namespace AsyncInn.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Hotel");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            City = "Seattle",
+                            Name = "HotelOne",
+                            Phone = "206-681-1111",
+                            State = "WA",
+                            StreetAddress = "2901 1st Ave"
+                        },
+                        new
+                        {
+                            ID = 2,
+                            City = "Seattle",
+                            Name = "HotelTwo",
+                            Phone = "206-681-2222",
+                            State = "WA",
+                            StreetAddress = "2901 2nd Ave"
+                        },
+                        new
+                        {
+                            ID = 3,
+                            City = "Seattle",
+                            Name = "HotelThree",
+                            Phone = "206-681-3333",
+                            State = "WA",
+                            StreetAddress = "2901 3rd Ave"
+                        },
+                        new
+                        {
+                            ID = 4,
+                            City = "Seattle",
+                            Name = "HotelFour",
+                            Phone = "206-681-4444",
+                            State = "WA",
+                            StreetAddress = "2901 4th Ave"
+                        },
+                        new
+                        {
+                            ID = 5,
+                            City = "Seattle",
+                            Name = "HotelFive",
+                            Phone = "206-681-5555",
+                            State = "WA",
+                            StreetAddress = "2901 5th Ave"
+                        },
+                        new
+                        {
+                            ID = 6,
+                            City = "Seattle",
+                            Name = "HotelSix",
+                            Phone = "206-681-6666",
+                            State = "WA",
+                            StreetAddress = "2901 6th Ave"
+                        });
                 });
 
             modelBuilder.Entity("AsyncInn.Models.HotelRoom", b =>

@@ -223,3 +223,8 @@ C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\ne
 C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\Rooms\Details.cshtml.g.cs
 C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\Rooms\Edit.cshtml.g.cs
 C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\Rooms\Index.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\Amenities\Create.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\Amenities\Delete.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\Amenities\Details.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\Amenities\Edit.cshtml.g.cs
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\Amenities\Index.cshtml.g.cs
