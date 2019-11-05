@@ -19,7 +19,6 @@ namespace AsyncInn.Data
         {
             modelBuilder.Entity<RoomAmenities>().HasKey(roomamenities => new { roomamenities.AmenitiesId, roomamenities.RoomId });
             modelBuilder.Entity<HotelRoom>().HasKey(hotelroom => new { hotelroom.HotelId, hotelroom.RoomId });
-
             modelBuilder.Entity<Hotel>().HasData(
                 new Hotel
                 {
@@ -65,15 +64,45 @@ namespace AsyncInn.Data
                     City = "Seattle",
                     State = "WA",
                     Phone = "206-681-5555"
+                }
+                );
+
+            modelBuilder.Entity<Room>().HasData(
+                new Room
+                {
+                    ID = 1,
+                    Name = "RoomOne",
+                    Layout = Layout.OneBedroom
                 },
-                new Hotel
+                new Room
+                {
+                    ID = 2,
+                    Name = "RoomTwo",
+                    Layout = Layout.Studio
+                },
+                new Room
+                {
+                    ID = 3,
+                    Name = "RoomThree",
+                    Layout = Layout.TwoBedroom
+                },
+                new Room
+                {
+                    ID = 4,
+                    Name = "RoomFour",
+                    Layout = Layout.Studio
+                },
+                new Room
+                {
+                    ID = 5,
+                    Name = "RoomFive",
+                    Layout = Layout.OneBedroom
+                },
+                new Room
                 {
                     ID = 6,
-                    Name = "HotelSix",
-                    StreetAddress = "2901 6th Ave",
-                    City = "Seattle",
-                    State = "WA",
-                    Phone = "206-681-6666"
+                    Name = "RoomSix",
+                    Layout = Layout.TwoBedroom
                 }
                 );
         }
