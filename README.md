@@ -61,7 +61,7 @@ Then select and open ```AsyncInn.sln```
 ---
 
 ### Change Log
-1.0: *Lab 14 Completed, Initial Submission* - 04 Nov 2019 11:45 PM
-1.0: *Lab 14 Started* - 04 Nov 2019 9:00 AM
-1.0: *Lab 13 Completed, Initial Submission* - 30 Oct 2019 10:45 PM
+1.0: *Lab 14 Completed, Initial Submission* - 04 Nov 2019 11:45 PM  
+1.0: *Lab 14 Started* - 04 Nov 2019 9:00 AM  
+1.0: *Lab 13 Completed, Initial Submission* - 30 Oct 2019 10:45 PM  
 1.0: *Lab 13 Started* - 30 Oct 2019 9:30 AM
