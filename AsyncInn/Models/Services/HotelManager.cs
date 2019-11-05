@@ -38,7 +38,7 @@ namespace AsyncInn.Models.Services
             return hotels;
         }
 
-        public async Task UpdateHotel(Hotel hotel)
+        public async Task UpdateHotelAsync(Hotel hotel)
         {
             _context.Hotel.Update(hotel);
             await _context.SaveChangesAsync();
