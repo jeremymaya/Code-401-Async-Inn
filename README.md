@@ -45,13 +45,13 @@ Then select and open ```AsyncInn.sln```
 ---
 
 ### Visuals
-![Menu](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
-![Hotels](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
-![CreateHotel](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
-![Rooms](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
-![CreateRoom](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
-![Amenities](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
-![CreateAmenity](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
+![Menu](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Menu.JPG)
+![Hotels](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Hotels.JPG)
+![CreateHotel](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/CreateHotel.JPG)
+![Rooms](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Rooms.JPG)
+![CreateRoom](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/CreateRoom.JPG)
+![Amenities](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Amenities.JPG)
+![CreateAmenity](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/CreateAmenity.JPG)
 
 ---
 
