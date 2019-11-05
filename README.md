@@ -2,14 +2,15 @@
 
 ## My Fitst MVC App
 
-Lab 13 - Intro to Entity Framework
+Lab 13 - Intro to Entity Framework  
+Lab 14 - Entity Framework & Seeding
 
 *Author: Kyungrae Kim*
 
 ----
 
 ## Description
-This is a ASP.NET Core MVC web application that will allow Async Hotel to better manage the assets in their hotels. This application can modify and manage rooms, amenities, and new hotel locations. The data ebtered by the user will persist across a relational database and maintain its integrity as changes are made to the system.
+This is a ASP.NET Core MVC web application that will allow Async Hotel to better manage the assets in their hotels. This application can modify and manage rooms, amenities, and new hotel locations. The data entered by the user will persist across a relational database and maintain its integrity as changes are made to the system.
 
 ---
 
@@ -43,11 +44,24 @@ Then select and open ```AsyncInn.sln```
 
 ---
 
+### Visuals
+![Menu](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
+![Hotels](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
+![CreateHotel](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
+![Rooms](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
+![CreateRoom](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
+![Amenities](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
+![CreateAmenity](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/AsyncInn2.png)
+
+---
+
 ### Credits
 [Code Fellows](https://codefellows.github.io/code-401-dotnet-guide/Resources/MVCSetup)
 
 ---
 
 ### Change Log
+1.0: *Lab 14 Completed, Initial Submission* - 04 Nov 2019 11:45 PM
+1.0: *Lab 14 Started* - 04 Nov 2019 9:00 AM
 1.0: *Lab 13 Completed, Initial Submission* - 30 Oct 2019 10:45 PM
 1.0: *Lab 13 Started* - 30 Oct 2019 9:30 AM
