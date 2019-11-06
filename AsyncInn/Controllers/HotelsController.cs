@@ -100,7 +100,7 @@ namespace AsyncInn.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!await HotelExists(id))
+                    if (!await HotelExists(hotel.ID))
                     {
                         return NotFound();
                     }
