@@ -30,18 +30,22 @@ namespace AsyncInn.Models.Services
             await _context.SaveChangesAsync();
         }
 
-        public Task<List<Amenities>> GetAmenitiesAsync()
-        {
-            var amenities = _context.Amenities.ToListAsync();
-            return amenities;
-        }
+        public async Task<IEnumerable<Amenities>> GetAmenitiesAsync() => await _context.Amenities.ToListAsync();
 
         public async Task<Amenities> GetAmenityAsync(int id) => await _context.Amenities.FirstOrDefaultAsync(amenity => amenity.ID == id);
-        
+
         public async Task UpdateAmenityAsync(Amenities amenity)
         {
             _context.Amenities.Update(amenity);
             await _context.SaveChangesAsync();
+        }
+
+        public IEnumerable<RoomAmenities> GetRoomAmenitiesByAmenity(int id)
+        {
+            var roomAmenities = _context.RoomAmenities.Where(roomAmenity => roomAmenity.AmenitiesId == id)
+                .Include(x => x.Amenities)
+                .Include(x => x.Room);
+            return roomAmenities;
         }
     }
 }

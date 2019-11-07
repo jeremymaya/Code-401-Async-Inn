@@ -15,6 +15,8 @@ namespace AsyncInn.Models.Interfaces
 
         Task DeleteRoomAsync(int id);
 
-        Task<List<Room>> GetRoomsAsync();
+        Task<IEnumerable<Room>> GetRoomsAsync();
+
+        IEnumerable<RoomAmenities> GetRoomAmenitiesByRoom(int id);
     }
 }

@@ -8251,19 +8251,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jeremiah Kim\\.nuget\\packages\\": {}
+    "C:\\Users\\Jeremiah\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jeremiah Kim\\Desktop\\Code-401-Async-Inn\\AsyncInn\\AsyncInn.csproj",
+      "projectUniqueName": "C:\\Users\\Jeremiah\\OneDrive\\code-401\\lab\\Code-401-Async-Inn\\AsyncInn\\AsyncInn.csproj",
       "projectName": "AsyncInn",
-      "projectPath": "C:\\Users\\Jeremiah Kim\\Desktop\\Code-401-Async-Inn\\AsyncInn\\AsyncInn.csproj",
-      "packagesPath": "C:\\Users\\Jeremiah Kim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jeremiah Kim\\Desktop\\Code-401-Async-Inn\\AsyncInn\\obj\\",
+      "projectPath": "C:\\Users\\Jeremiah\\OneDrive\\code-401\\lab\\Code-401-Async-Inn\\AsyncInn\\AsyncInn.csproj",
+      "packagesPath": "C:\\Users\\Jeremiah\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jeremiah\\OneDrive\\code-401\\lab\\Code-401-Async-Inn\\AsyncInn\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jeremiah Kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jeremiah\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

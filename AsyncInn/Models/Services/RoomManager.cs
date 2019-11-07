@@ -31,16 +31,20 @@ namespace AsyncInn.Models.Services
 
         public async Task<Room> GetRoomAsync(int id) => await _context.Room.FirstOrDefaultAsync(room => room.ID == id);
 
-        public Task<List<Room>> GetRoomsAsync()
-        {
-            var rooms = _context.Room.ToListAsync();
-            return rooms;
-        }
+        public async Task<IEnumerable<Room>> GetRoomsAsync() => await _context.Room.ToListAsync();
 
         public async Task UpdateRoomAsync(Room room)
         {
             _context.Room.Update(room);
             await _context.SaveChangesAsync();
+        }
+
+        public IEnumerable<RoomAmenities> GetRoomAmenitiesByRoom(int id)
+        {
+            var roomAmenities = _context.RoomAmenities.Where(roomAmenity => roomAmenity.RoomId == id)
+                .Include(x => x.Room)
+                .Include(x => x.Amenities);
+            return roomAmenities;
         }
     }
 }

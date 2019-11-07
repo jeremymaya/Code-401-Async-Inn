@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using AsyncInn.Data;
 using AsyncInn.Models;
 using AsyncInn.Models.Interfaces;
+using AsyncInn.Models.ViewModels;
 
 namespace AsyncInn.Controllers
 {
@@ -34,13 +35,19 @@ namespace AsyncInn.Controllers
                 return NotFound();
             }
 
-            var room = await _room.GetRoomAsync(id);
+            Room room = await _room.GetRoomAsync(id);
+            var roomAmenitiesList = _room.GetRoomAmenitiesByRoom(id);
+
+            RoomAmenitiesListVM ravm = new RoomAmenitiesListVM();
+            ravm.Room = room;
+            ravm.RoomAmenities = roomAmenitiesList;
+
             if (room == null)
             {
                 return NotFound();
             }
 
-            return View(room);
+            return View(ravm);
         }
 
         // GET: Rooms/Create
