@@ -39,5 +39,13 @@ namespace AsyncInn.Models.Services
             _context.Hotel.Update(hotel);
             await _context.SaveChangesAsync();
         }
+
+        public IEnumerable<HotelRoom> GetHotelRoomsByHotel(int id)
+        {
+            var hotelRoom = _context.HotelRoom.Where(hotelRoom => hotelRoom.HotelId == id)
+                .Include(x => x.Hotel)
+                .Include(x => x.Room);
+            return hotelRoom;
+        }
     }
 }

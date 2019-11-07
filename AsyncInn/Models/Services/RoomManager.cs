@@ -16,6 +16,7 @@ namespace AsyncInn.Models.Services
         {
             _context = context;
         }
+
         public async Task CreateRoomAsync(Room room)
         {
             await _context.AddAsync(room);

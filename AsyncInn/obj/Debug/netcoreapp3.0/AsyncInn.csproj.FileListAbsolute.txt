@@ -485,3 +485,4 @@ C:\Users\Jeremiah Kim\Desktop\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.
 C:\Users\Jeremiah Kim\Desktop\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\AsyncInn.csproj.CopyComplete
 C:\Users\Jeremiah Kim\Desktop\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\AsyncInn.dll
 C:\Users\Jeremiah Kim\Desktop\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\AsyncInn.pdb
+C:\Users\Jeremiah\OneDrive\code-401\lab\Code-401-Async-Inn\AsyncInn\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs

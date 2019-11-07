@@ -16,5 +16,7 @@ namespace AsyncInn.Models.Interfaces
         Task DeleteHotelAsync(int id);
 
         Task<IEnumerable<Hotel>> GetHotelsAsync();
+
+        IEnumerable<HotelRoom> GetHotelRoomsByHotel(int id);
     }
 }
