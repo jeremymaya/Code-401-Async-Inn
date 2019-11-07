@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AsyncInn.Migrations
 {
     [DbContext(typeof(AsyncInnDbContext))]
-    [Migration("20191105062308_AmenitiesSeeded")]
-    partial class AmenitiesSeeded
+    [Migration("20191105174352_MacBookLocal")]
+    partial class MacBookLocal
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
