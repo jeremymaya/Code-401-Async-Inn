@@ -1,9 +1,9 @@
 # Code-401-Async-Inn
 
 ## My Fitst MVC App
-
-Lab 13 - Intro to Entity Framework  
-Lab 14 - Entity Framework & Seeding
+Lab 16 - Dependency Injection  
+Lab 14 - Entity Framework & Seeding  
+Lab 13 - Intro to Entity Framework
 
 *Author: Kyungrae Kim*
 
@@ -61,6 +61,8 @@ Then select and open ```AsyncInn.sln```
 ---
 
 ### Change Log
+1.2: *Lab 16 Completed, Initial Submission* - 07 Nov 2019 01:10 AM  
+1.2: *Lab 16 Started* - 06 Nov 2019 9:00 AM  
 1.1: *Lab 14 Completed, Initial Submission* - 04 Nov 2019 11:45 PM  
 1.1: *Lab 14 Started* - 04 Nov 2019 9:00 AM  
 1.0: *Lab 13 Completed, Initial Submission* - 30 Oct 2019 10:45 PM  
