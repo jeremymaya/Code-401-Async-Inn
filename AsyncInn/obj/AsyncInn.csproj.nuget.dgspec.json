@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jeremiah\\OneDrive\\code-401\\lab\\Code-401-Async-Inn\\AsyncInn\\AsyncInn.csproj": {}
+    "/Users/jeremiah/OneDrive/code-401/lab/Code-401-Async-Inn/AsyncInn/AsyncInn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jeremiah\\OneDrive\\code-401\\lab\\Code-401-Async-Inn\\AsyncInn\\AsyncInn.csproj": {
+    "/Users/jeremiah/OneDrive/code-401/lab/Code-401-Async-Inn/AsyncInn/AsyncInn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jeremiah\\OneDrive\\code-401\\lab\\Code-401-Async-Inn\\AsyncInn\\AsyncInn.csproj",
+        "projectUniqueName": "/Users/jeremiah/OneDrive/code-401/lab/Code-401-Async-Inn/AsyncInn/AsyncInn.csproj",
         "projectName": "AsyncInn",
-        "projectPath": "C:\\Users\\Jeremiah\\OneDrive\\code-401\\lab\\Code-401-Async-Inn\\AsyncInn\\AsyncInn.csproj",
-        "packagesPath": "C:\\Users\\Jeremiah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jeremiah\\OneDrive\\code-401\\lab\\Code-401-Async-Inn\\AsyncInn\\obj\\",
+        "projectPath": "/Users/jeremiah/OneDrive/code-401/lab/Code-401-Async-Inn/AsyncInn/AsyncInn.csproj",
+        "packagesPath": "/Users/jeremiah/.nuget/packages/",
+        "outputPath": "/Users/jeremiah/OneDrive/code-401/lab/Code-401-Async-Inn/AsyncInn/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jeremiah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jeremiah/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

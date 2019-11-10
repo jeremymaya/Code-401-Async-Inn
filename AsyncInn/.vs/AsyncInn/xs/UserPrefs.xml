@@ -1,23 +1,15 @@
 ﻿<Properties StartupConfiguration="{DA5D0D10-FBA7-48C4-96B1-D3194478E2A6}|Default">
   <MonoDevelop.Ide.ItemProperties.AsyncInn PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
     <Files>
-      <File FileName="Startup.cs" Line="23" Column="10" />
-      <File FileName="Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="38" Column="72" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AsyncInn" expanded="True">
             <Node name="AsyncInn" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-              </Node>
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
