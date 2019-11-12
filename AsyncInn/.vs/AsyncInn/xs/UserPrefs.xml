@@ -1,15 +1,25 @@
 ﻿<Properties StartupConfiguration="{DA5D0D10-FBA7-48C4-96B1-D3194478E2A6}|Default">
   <MonoDevelop.Ide.ItemProperties.AsyncInn PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Rooms/Details.cshtml">
     <Files>
-      <File FileName="Startup.cs" Line="38" Column="72" />
+      <File FileName="Startup.cs" Line="38" Column="73" />
+      <File FileName="Views/Hotels/Details.cshtml" Line="89" Column="1" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="32" Column="34" />
+      <File FileName="Views/Rooms/Details.cshtml" Line="43" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AsyncInn" expanded="True">
             <Node name="AsyncInn" expanded="True">
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Views" expanded="True">
+                <Node name="HotelRooms" expanded="True" />
+                <Node name="Hotels" expanded="True" />
+                <Node name="Rooms" expanded="True">
+                  <Node name="Details.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
