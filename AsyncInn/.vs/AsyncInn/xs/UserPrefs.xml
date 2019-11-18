@@ -3,11 +3,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/AmenitiesController.cs">
     <Files>
       <File FileName="../../../projects/blind-vacation-api/README.md" Line="1" Column="1" />
-      <File FileName="Controllers/AmenitiesController.cs" Line="14" Column="50" />
-      <File FileName="Models/Interfaces/IAmenitiesManager.cs" />
-      <File FileName="Models/Services/AmenitiesManager.cs" />
-      <File FileName="Data/AsyncInnDbContext.cs" />
-      <File FileName="Models/Amenities.cs" />
+      <File FileName="Controllers/AmenitiesController.cs" Line="120" Column="51" />
+      <File FileName="Controllers/RoomsController.cs" />
+      <File FileName="Controllers/HotelsController.cs" Line="101" Column="73" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,10 +14,6 @@
             <Node name="AsyncInn" expanded="True">
               <Node name="Controllers" expanded="True">
                 <Node name="AmenitiesController.cs" selected="True" />
-              </Node>
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Services" expanded="True" />
               </Node>
             </Node>
           </Node>

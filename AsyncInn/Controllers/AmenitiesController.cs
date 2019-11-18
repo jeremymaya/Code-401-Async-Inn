@@ -19,7 +19,7 @@ namespace AsyncInn.Controllers
         private readonly IAmenitiesManager _amenities;
 
         /// <summary>
-        /// Controller contructor to set controller's propety to the corresponding interface instance
+        /// A controller contructor to set controller's propety to the corresponding interface instance
         /// </summary>
         /// <param name="amenities">IAmenitiesManager instance based on an attached database</param>
         public AmenitiesController(IAmenitiesManager amenities)
@@ -29,7 +29,7 @@ namespace AsyncInn.Controllers
 
         // GET: Amenities
         /// <summary>
-        /// Default HTTP GET route for /Amenities to show amenities in a database
+        /// Default HTTP GET route for /Amenities to display amenities in a database
         /// </summary>
         /// <returns>Index.cshtml with amenities list</returns>
         public async Task<IActionResult> Index()
@@ -41,8 +41,8 @@ namespace AsyncInn.Controllers
         /// <summary>
         /// HTTP GET route for /Amenities/Details to display amenity details
         /// </summary>
-        /// <param name="id">Room Id</param>
-        /// <returns>Details.cshtml with amenities list based on the Room Id</returns>
+        /// <param name="id">Amenity Id</param>
+        /// <returns>Details.cshtml with an amenity details based on the Amenity Id</returns>
         public async Task<IActionResult> Details(int id)
         {
             if (id <= 0)
@@ -59,6 +59,10 @@ namespace AsyncInn.Controllers
             return View(amenities);
         }
 
+        /// <summary>
+        /// HTTP GET route for Amenities/Create to get a new amenity information
+        /// </summary>
+        /// <returns>Create.cshtml</returns>
         // GET: Amenities/Create
         public IActionResult Create()
         {
@@ -69,9 +73,9 @@ namespace AsyncInn.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         /// <summary>
-        /// HTTP POST route for Amenities/Create to create a new amenity item
+        /// HTTP POST route for Amenities/Create to create a new amenity
         /// </summary>
-        /// <param name="amenities">New amenity item</param>
+        /// <param name="amenities">New amenity object</param>
         /// <returns>Index.cshtml with the updated amenities list</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -85,6 +89,11 @@ namespace AsyncInn.Controllers
             return View(amenities);
         }
 
+        /// <summary>
+        /// HTTP GET route for Amenities/Edit to get an amenity information based on the Amenity Id
+        /// </summary>
+        /// <param name="id">Amenity Id</param>
+        /// <returns>Edit.cshtml with an amenity information based on the Amenity Id</returns>
         // GET: Amenities/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
@@ -105,10 +114,10 @@ namespace AsyncInn.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         /// <summary>
-        /// HTTP POST route for Amenities/Edit/ to edit an ameinity item details
+        /// HTTP POST route for Amenities/Edit/ to edit an ameinity object details
         /// </summary>
         /// <param name="id">Amenity Id</param>
-        /// <param name="amenities">Amenity item based on the Amenity Id</param>
+        /// <param name="amenities">Amenity object based on the Amenity Id</param>
         /// <returns>Index.cshtml with the updated amenities list</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -143,10 +152,10 @@ namespace AsyncInn.Controllers
 
         // GET: Amenities/Delete/5
         /// <summary>
-        /// HTTP GET route for Amenities/Delete/ to get an amenity item to be deleted
+        /// HTTP GET route for Amenities/Delete/ to get an amenity object to be deleted based on the Amenity Id
         /// </summary>
         /// <param name="id">Amenity Id</param>
-        /// <returns>Delete.cshtml with an amenity item based on the Amenity Id</returns>
+        /// <returns>Delete.cshtml with an amenity information based on the Amenity Id</returns>
         public async Task<IActionResult> Delete(int id)
         {
             if (id <= 0)
@@ -165,7 +174,7 @@ namespace AsyncInn.Controllers
 
         // POST: Amenities/Delete/5
         /// <summary>
-        /// HTTP POST route for Amenities/Delete/ to delete an amenity item
+        /// HTTP POST route for Amenities/Delete/ to delete an amenity
         /// </summary>
         /// <param name="id">Amenity id</param>
         /// <returns>Index.cshtml with the updated amenities list</returns>
@@ -180,8 +189,8 @@ namespace AsyncInn.Controllers
         /// <summary>
         /// An action that checks if an amenity item exists
         /// </summary>
-        /// <param name="id">Amenity id</param>
-        /// <returns>Boolean value which confirms if an amenity item based on the Amenity id exists</returns>
+        /// <param name="id">Amenity Id</param>
+        /// <returns>Boolean value which confirms if an amenity  based on the Amenity Id exists</returns>
         private async Task<bool> AmenitiesExists(int id)
         {
             var amenity = await _amenities.GetAmenityAsync(id);
