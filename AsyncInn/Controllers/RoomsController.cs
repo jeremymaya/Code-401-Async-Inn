@@ -14,20 +14,36 @@ namespace AsyncInn.Controllers
 {
     public class RoomsController : Controller
     {
+        /// <summary>
+        /// Dependency injection to establish a private connection to a database table by injecting an interface
+        /// </summary>
         private readonly IRoomManager _room;
 
+        /// <summary>
+        /// A controller contructor to set controller's propety to the corresponding interface instance
+        /// </summary>
+        /// <param name="room">IRoomManager instance based on an attached database</param>
         public RoomsController(IRoomManager room)
         {
             _room = room;
         }
 
         // GET: Rooms
+        /// <summary>
+        /// Default HTTP GET route for /Rooms to display amenities in a database
+        /// </summary>
+        /// <returns>Index.cshtml with a rooms list</returns>
         public async Task<IActionResult> Index()
         {
             return View(await _room.GetRoomsAsync());
         }
 
         // GET: Rooms/Details/5
+        /// <summary>
+        /// HTTP GET route for Rooms/Details to display room details
+        /// </summary>
+        /// <param name="id">Room Id</param>
+        /// <returns>Details.cshtml with a room details based on the Room Id including the amenities associated with the Room Id</returns>
         public async Task<IActionResult> Details(int id)
         {
             if (id <= 0)
@@ -51,6 +67,10 @@ namespace AsyncInn.Controllers
         }
 
         // GET: Rooms/Create
+        /// <summary>
+        /// HTTP GET route for Rooms/Create to get a new room information
+        /// </summary>
+        /// <returns>Create.cshtml</returns>
         public IActionResult Create()
         {
             return View();
@@ -59,6 +79,11 @@ namespace AsyncInn.Controllers
         // POST: Rooms/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        /// <summary>
+        /// HTTP POST route for Rooms/Create to create a new room
+        /// </summary>
+        /// <param name="room">New room object</param>
+        /// <returns>Index.cshtml with the updated rooms list</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ID,Name,Layout")] Room room)
@@ -72,6 +97,11 @@ namespace AsyncInn.Controllers
         }
 
         // GET: Rooms/Edit/5
+        /// <summary>
+        /// HTTP GET route for Rooms/Edit to get a room information based on the Room Id
+        /// </summary>
+        /// <param name="id">Room Id</param>
+        /// <returns>Edit.cshtml with a room information based on the Room Id</returns>
         public async Task<IActionResult> Edit(int id)
         {
             if (id <= 0)
@@ -90,6 +120,12 @@ namespace AsyncInn.Controllers
         // POST: Rooms/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        /// <summary>
+        /// HTTP POST route for Rooms/Edit/ to edit a room  details
+        /// </summary>
+        /// <param name="id">Room Id</param>
+        /// <param name="room">Room object based on the Room Id</param>
+        /// <returns>Index.cshtml with the updated rooms list</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Layout")] Room room)
@@ -122,6 +158,11 @@ namespace AsyncInn.Controllers
         }
 
         // GET: Rooms/Delete/5
+        /// <summary>
+        /// HTTP GET route for Rooms/Delete/ to get a room to be deleted based on the Room Id
+        /// </summary>
+        /// <param name="id">Room Id</param>
+        /// <returns>Delete.cshtml with a room information based on the Room Id</returns>
         public async Task<IActionResult> Delete(int id)
         {
             if (id <= 0)
@@ -139,6 +180,11 @@ namespace AsyncInn.Controllers
         }
 
         // POST: Rooms/Delete/5
+        /// <summary>
+        /// HTTP POST route for Rooms/Delete/ to delete a room based on the Room Id
+        /// </summary>
+        /// <param name="id">Room Id</param>
+        /// <returns>Index.cshtml with the updated room list</returns>
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -147,6 +193,11 @@ namespace AsyncInn.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        /// <summary>
+        /// An action that checks if a room exists based on the Room Id
+        /// </summary>
+        /// <param name="id">Room Id</param>
+        /// <returns>Boolean value which confirms if a room  based on the Room Id exists</returns>
         private async Task<bool> RoomExists(int id)
         {
             var room = await _room.GetRoomAsync(id);
