@@ -30,9 +30,9 @@ namespace AsyncInn.Controllers
 
         // GET: Hotels
         /// <summary>
-        /// Default HTTP GET route for /Hotel to display hotels in a database
+        /// Default HTTP GET route for /Hotels to display hotels in a database
         /// </summary>
-        /// <returns>Index.cshtml with hotels list</returns>
+        /// <returns>Index.cshtml with a hotels list</returns>
         public async Task<IActionResult> Index()
         {
             return View(await _hotel.GetHotelsAsync());
@@ -121,7 +121,7 @@ namespace AsyncInn.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         /// <summary>
-        /// HTTP POST route for Hotels/Edit/ to edit an hotel object details
+        /// HTTP POST route for Hotels/Edit/ to edit an hotel  details
         /// </summary>
         /// <param name="id">Hotel Id</param>
         /// <param name="hotel">Hotel object based on the Hotel Id</param>
@@ -159,7 +159,7 @@ namespace AsyncInn.Controllers
 
         // GET: Hotels/Delete/5
         /// <summary>
-        /// HTTP GET route for Hotels/Delete/ to get a hotel object to be deleted based on the Hotel Id
+        /// HTTP GET route for Hotels/Delete/ to get a hotel to be deleted based on the Hotel Id
         /// </summary>
         /// <param name="id">Hotel Id</param>
         /// <returns>Delete.cshtml with a hotel information based on the Hotel Id</returns>
@@ -182,7 +182,7 @@ namespace AsyncInn.Controllers
 
         // POST: Hotels/Delete/5
         /// <summary>
-        /// HTTP POST route for Hotels/Delete/ to delete a hotel
+        /// HTTP POST route for Hotels/Delete/ to delete a hotel based on the Hotel Id
         /// </summary>
         /// <param name="id">Hotel Id</param>
         /// <returns>Index.cshtml with the updated hotels list</returns>
@@ -200,7 +200,7 @@ namespace AsyncInn.Controllers
         }
 
         /// <summary>
-        /// An action that checks if an amenity item exists
+        /// An action that checks if a hotel exists based on the Hotel Id
         /// </summary>
         /// <param name="id">Hotel Id</param>
         /// <returns>Boolean value which confirms if a hotel based on the Hotel Id exists</returns>

@@ -31,7 +31,7 @@ namespace AsyncInn.Controllers
         /// <summary>
         /// Default HTTP GET route for /Amenities to display amenities in a database
         /// </summary>
-        /// <returns>Index.cshtml with amenities list</returns>
+        /// <returns>Index.cshtml with a amenities list</returns>
         public async Task<IActionResult> Index()
         {
             return View(await _amenities.GetAmenitiesAsync());
@@ -39,7 +39,7 @@ namespace AsyncInn.Controllers
 
         // GET: Amenities/Details/5
         /// <summary>
-        /// HTTP GET route for /Amenities/Details to display amenity details
+        /// HTTP GET route for Amenities/Details to display amenity details
         /// </summary>
         /// <param name="id">Amenity Id</param>
         /// <returns>Details.cshtml with an amenity details based on the Amenity Id</returns>
@@ -89,12 +89,12 @@ namespace AsyncInn.Controllers
             return View(amenities);
         }
 
+        // GET: Amenities/Edit/5
         /// <summary>
         /// HTTP GET route for Amenities/Edit to get an amenity information based on the Amenity Id
         /// </summary>
         /// <param name="id">Amenity Id</param>
         /// <returns>Edit.cshtml with an amenity information based on the Amenity Id</returns>
-        // GET: Amenities/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
             if (id <= 0)
@@ -114,7 +114,7 @@ namespace AsyncInn.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         /// <summary>
-        /// HTTP POST route for Amenities/Edit/ to edit an ameinity object details
+        /// HTTP POST route for Amenities/Edit/ to edit an ameinity details
         /// </summary>
         /// <param name="id">Amenity Id</param>
         /// <param name="amenities">Amenity object based on the Amenity Id</param>
@@ -152,7 +152,7 @@ namespace AsyncInn.Controllers
 
         // GET: Amenities/Delete/5
         /// <summary>
-        /// HTTP GET route for Amenities/Delete/ to get an amenity object to be deleted based on the Amenity Id
+        /// HTTP GET route for Amenities/Delete/ to get an amenity to be deleted based on the Amenity Id
         /// </summary>
         /// <param name="id">Amenity Id</param>
         /// <returns>Delete.cshtml with an amenity information based on the Amenity Id</returns>
@@ -174,7 +174,7 @@ namespace AsyncInn.Controllers
 
         // POST: Amenities/Delete/5
         /// <summary>
-        /// HTTP POST route for Amenities/Delete/ to delete an amenity
+        /// HTTP POST route for Amenities/Delete/ to delete an amenity based on the Amenity Id
         /// </summary>
         /// <param name="id">Amenity id</param>
         /// <returns>Index.cshtml with the updated amenities list</returns>
@@ -187,7 +187,7 @@ namespace AsyncInn.Controllers
         }
 
         /// <summary>
-        /// An action that checks if an amenity item exists
+        /// An action that checks if an amenity exists based on the Amenity Id
         /// </summary>
         /// <param name="id">Amenity Id</param>
         /// <returns>Boolean value which confirms if an amenity  based on the Amenity Id exists</returns>
