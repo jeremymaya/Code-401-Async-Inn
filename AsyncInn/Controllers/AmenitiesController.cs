@@ -13,20 +13,36 @@ namespace AsyncInn.Controllers
 {
     public class AmenitiesController : Controller
     {
+        /// <summary>
+        /// Dependency injection to establish a private connection to a database table by injecting an interface
+        /// </summary>
         private readonly IAmenitiesManager _amenities;
 
+        /// <summary>
+        /// Controller contructor to set controller's propety to the corresponding interface instance
+        /// </summary>
+        /// <param name="amenities">IAmenitiesManager instance based on an attached database</param>
         public AmenitiesController(IAmenitiesManager amenities)
         {
             _amenities = amenities;
         }
 
         // GET: Amenities
+        /// <summary>
+        /// Default HTTP GET route for /Amenities to show amenities in a database
+        /// </summary>
+        /// <returns>Index.cshtml with amenities list</returns>
         public async Task<IActionResult> Index()
         {
             return View(await _amenities.GetAmenitiesAsync());
         }
 
         // GET: Amenities/Details/5
+        /// <summary>
+        /// HTTP GET route for /Amenities/Details to display amenity details
+        /// </summary>
+        /// <param name="id">Room Id</param>
+        /// <returns>Details.cshtml with amenities list based on the Room Id</returns>
         public async Task<IActionResult> Details(int id)
         {
             if (id <= 0)
@@ -52,6 +68,11 @@ namespace AsyncInn.Controllers
         // POST: Amenities/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        /// <summary>
+        /// HTTP POST route for Amenities/Create to create a new amenity item
+        /// </summary>
+        /// <param name="amenities">New amenity item</param>
+        /// <returns>Index.cshtml with the updated amenities list</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ID,Name")] Amenities amenities)
@@ -83,6 +104,12 @@ namespace AsyncInn.Controllers
         // POST: Amenities/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        /// <summary>
+        /// HTTP POST route for Amenities/Edit/ to edit an ameinity item details
+        /// </summary>
+        /// <param name="id">Amenity Id</param>
+        /// <param name="amenities">Amenity item based on the Amenity Id</param>
+        /// <returns>Index.cshtml with the updated amenities list</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ID,Name")] Amenities amenities)
@@ -115,6 +142,11 @@ namespace AsyncInn.Controllers
         }
 
         // GET: Amenities/Delete/5
+        /// <summary>
+        /// HTTP GET route for Amenities/Delete/ to get an amenity item to be deleted
+        /// </summary>
+        /// <param name="id">Amenity Id</param>
+        /// <returns>Delete.cshtml with an amenity item based on the Amenity Id</returns>
         public async Task<IActionResult> Delete(int id)
         {
             if (id <= 0)
@@ -132,6 +164,11 @@ namespace AsyncInn.Controllers
         }
 
         // POST: Amenities/Delete/5
+        /// <summary>
+        /// HTTP POST route for Amenities/Delete/ to delete an amenity item
+        /// </summary>
+        /// <param name="id">Amenity id</param>
+        /// <returns>Index.cshtml with the updated amenities list</returns>
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -140,6 +177,11 @@ namespace AsyncInn.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        /// <summary>
+        /// An action that checks if an amenity item exists
+        /// </summary>
+        /// <param name="id">Amenity id</param>
+        /// <returns>Boolean value which confirms if an amenity item based on the Amenity id exists</returns>
         private async Task<bool> AmenitiesExists(int id)
         {
             var amenity = await _amenities.GetAmenityAsync(id);
