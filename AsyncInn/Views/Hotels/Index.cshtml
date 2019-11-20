@@ -5,10 +5,16 @@
     Layout = "_Layout";
 }
 <h1>Index</h1>
-
+<p>Total Numer of Hotels In the Chain: @Model.Count()</p>
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<form asp-controller="Hotels" asp-action="Index" method="get">
+    <p>
+        Hotel Name: <input type="text" name="SearchString">
+        <input type="submit" value="Filter" />
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>

@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.AsyncInn PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="../README.md">
     <Files>
-      <File FileName="../README.md" Line="32" Column="1" />
+      <File FileName="../README.md" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +10,12 @@
           <Node name="AsyncInn" expanded="True">
             <Node name="AsyncInn" expanded="True">
               <Node name="Controllers" expanded="True">
-                <Node name="AmenitiesController.cs" selected="True" />
+                <Node name="HotelsController.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Amenities" expanded="True" />
+                <Node name="Hotels" expanded="True" />
+                <Node name="Rooms" expanded="True" />
               </Node>
             </Node>
           </Node>
