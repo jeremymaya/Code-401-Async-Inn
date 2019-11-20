@@ -21,6 +21,7 @@ namespace AsyncInn.Models
 
         public ICollection<HotelRoom> HotelRoom { get; set; }
     }
+
     public enum Layout
     {
         Studio,

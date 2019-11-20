@@ -33,9 +33,16 @@ namespace AsyncInn.Controllers
         /// Default HTTP GET route for /Hotels to display hotels in a database
         /// </summary>
         /// <returns>Index.cshtml with a hotels list</returns>
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _hotel.GetHotelsAsync());
+            var hotels = from x in await _hotel.GetHotelsAsync() select x;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                hotels = hotels.Where(x => x.Name.Contains(searchString));
+            }
+
+            return View(hotels);
         }
 
         // GET: Hotels/Details/5

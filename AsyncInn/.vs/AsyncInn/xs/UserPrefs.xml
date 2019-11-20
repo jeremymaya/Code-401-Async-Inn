@@ -1,24 +1,24 @@
 ﻿<Properties StartupConfiguration="{DA5D0D10-FBA7-48C4-96B1-D3194478E2A6}|Default">
   <MonoDevelop.Ide.ItemProperties.AsyncInn PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/HotelRoom.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Hotels/Index.cshtml">
     <Files>
-      <File FileName="Startup.cs" Line="38" Column="72" />
-      <File FileName="Models/Amenities.cs" Line="14" Column="35" />
-      <File FileName="Models/Hotel.cs" Line="30" Column="1" />
-      <File FileName="Models/HotelRoom.cs" Line="1" Column="1" />
-      <File FileName="Models/Room.cs" Line="1" Column="1" />
-      <File FileName="Models/RoomAmenities.cs" Line="1" Column="1" />
+      <File FileName="Controllers/HotelsController.cs" Line="38" Column="1" />
+      <File FileName="Controllers/RoomsController.cs" Line="44" Column="30" />
+      <File FileName="Controllers/AmenitiesController.cs" Line="1" Column="1" />
+      <File FileName="Views/Hotels/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Rooms/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AsyncInn" expanded="True">
             <Node name="AsyncInn" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="HotelRoom.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Hotels" expanded="True" />
+                <Node name="Hotels" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Rooms" expanded="True" />
               </Node>
             </Node>
           </Node>
