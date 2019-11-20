@@ -1,21 +1,27 @@
 ﻿<Properties StartupConfiguration="{DA5D0D10-FBA7-48C4-96B1-D3194478E2A6}|Default">
   <MonoDevelop.Ide.ItemProperties.AsyncInn PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../README.md">
+  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/css/style.css">
     <Files>
-      <File FileName="../README.md" Line="1" Column="1" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="43" Column="21" />
+      <File FileName="Views/Home/Index.cshtml" Line="18" Column="207" />
+      <File FileName="Views/Hotels/Index.cshtml" Line="7" Column="1" />
+      <File FileName="wwwroot/css/style.css" Line="2" Column="9" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AsyncInn" expanded="True">
             <Node name="AsyncInn" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HotelsController.cs" selected="True" />
-              </Node>
               <Node name="Views" expanded="True">
-                <Node name="Amenities" expanded="True" />
+                <Node name="Home" expanded="True" />
                 <Node name="Hotels" expanded="True" />
-                <Node name="Rooms" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="style.css" selected="True" />
+                </Node>
+                <Node name="img" expanded="True" />
               </Node>
             </Node>
           </Node>
