@@ -39,7 +39,7 @@ namespace AsyncInn.Controllers
 
             if (!string.IsNullOrEmpty(searchString))
             {
-                hotels = hotels.Where(x => x.Name.Contains(searchString));
+                hotels = hotels.Where(x => x.Name.ToLower().Contains(searchString.ToLower()));
             }
 
             return View(hotels);
