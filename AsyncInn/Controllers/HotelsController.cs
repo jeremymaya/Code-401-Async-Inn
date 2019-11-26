@@ -35,7 +35,7 @@ namespace AsyncInn.Controllers
         /// <returns>Index.cshtml with a hotels list</returns>
         public async Task<IActionResult> Index(string searchString)
         {
-            var hotels = from x in await _hotel.GetHotelsAsync() select x;
+            var hotels = await _hotel.GetHotelsAsync();
 
             if (!string.IsNullOrEmpty(searchString))
             {
