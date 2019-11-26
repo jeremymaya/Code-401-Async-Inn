@@ -47,13 +47,40 @@ Then select and open ```AsyncInn.sln```
 ---
 
 ### Visuals
-![Menu](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Menu.JPG)
-![Hotel](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Hotels.JPG)
-![Hotel-Create](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Hotel-Create.JPG)
-![Rooms](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Rooms-e.JPG)
-![CreateRoom](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/CreateRoom-e.JPG)
-![Amenities](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Amenities-e.JPG)
-![CreateAmenity](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/CreateAmenity-e.JPG)
+#### Menu
+![Menu](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Menu.png)
+#### Hotels
+![Hotels](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Hotels.png)
+#### Hotel - Create
+![Hotel-Create](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Hotel-Create.png)
+#### Hotel - Details
+![Hotel-Details](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Hote-Details.png)
+#### HotelRoom
+![HotelRoom](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/HotelRoom.png)
+#### Hotel - Edit
+![Hotel-Edit](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Hotel-Edit.png)
+#### Hotel - Delete
+![Hotel-Delete](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Hotel-Delete.png)
+#### Rooms
+![Rooms](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Rooms.png)
+#### Room - Create
+![Room-Create](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Room-Create.png)
+#### Room - Details
+![Room-Details](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Room-Details.png)
+#### RoomAmenities
+![RoomAmenities](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/RoomAmenities.png)
+#### Room - Edit
+![Room-Edit](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Room-Edit.png)
+#### Room - Delete
+![Room-Delete](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Room-Delete.png)
+#### Amenities
+![Amenities](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Amenities.png)
+#### Amenity - Create
+![Amenity-Create](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Amenity-Create.png)
+#### Amenity - Details
+![Amenity-Details](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Amenity-Details.png)
+#### Amenity - Delete
+![Amenity-Delete](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Amenity-Delete.png)
 
 ---
 
