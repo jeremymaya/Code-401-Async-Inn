@@ -47,9 +47,9 @@ Then select and open ```AsyncInn.sln```
 ---
 
 ### Visuals
-![Menu](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Menu-e.JPG)
-![Hotels](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Hotels-e.JPG)
-![CreateHotel](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/CreateHotel-e.JPG)
+![Menu](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Menu.JPG)
+![Hotel](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Hotels.JPG)
+![Hotel-Create](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Hotel-Create.JPG)
 ![Rooms](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Rooms-e.JPG)
 ![CreateRoom](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/CreateRoom-e.JPG)
 ![Amenities](https://github.com/jeremymaya/Code-401-Async-Inn/blob/master/assets/Amenities-e.JPG)
